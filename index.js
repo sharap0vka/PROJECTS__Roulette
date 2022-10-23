@@ -79,7 +79,6 @@ window.onload = function () {
 		getRandomNumbers(1, 100);
 		onAddEventListeners();
 		tips.textContent = getTips(randomNumbers);
-		console.log(randomNumbers);
 	}
 
 	init();
