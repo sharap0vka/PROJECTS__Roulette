@@ -17,6 +17,7 @@ window.onload = function () {
 				result.push(i);
 			}
 		}
+		if (result.length == 0) return 'Простое число';
 		return result;
 	}
 
